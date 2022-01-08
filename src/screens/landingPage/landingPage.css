@@ -1,0 +1,51 @@
+.title {
+    font-size: 95px;
+    color: white;
+  }
+  .subtitle {
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-left: 13%;
+    color: lightsteelblue;
+  }
+  .intro-text {
+    width: 100%;
+    text-align: center;
+  }
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://res-3.cloudinary.com/fieldfisher/image/upload/c_lfill,g_auto/f_auto,q_auto/v1/sectors/technology/tech_neoncircuitboard_857021704_medium_lc5h05');
+    background-position: cover;
+    background-size: cover;
+}
+.buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .landingbutton {
+    width: 200px;
+    height: 55px;
+    margin-left: 10px
+;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .buttonContainer {
+      padding: 0 200px;
+    }
+    .title {
+      padding: 0 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    
+  }
